@@ -1,0 +1,174 @@
+
+  
+  body {
+    background-color: white
+  }
+  
+  header {
+    background-color: #C8DEE7;
+    width: 100%;
+    height: 94px;
+    flex-shrink: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav p {
+    padding-left: 29px;
+  }
+
+  nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 82px;
+
+  }
+
+  nav .menu-item {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+
+  }
+  
+ .main-div-1 {
+    position: absolute;
+    left: 102px;
+    top: 138px;
+    width: 608px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+  }
+
+  .main-div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+  }
+  
+  .main-head {
+    color: #25282B;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;   
+  }
+
+  .body {
+    color: #828282;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
+
+  .main-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 44px;
+    justify-content: space-between;
+    width: 243px;
+
+  }
+  
+  .card-container {
+    position: absolute;
+    padding-top: 1020px;
+    padding-bottom: 500px;
+    display: flex;
+    height: 2330px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 80px;
+    
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+    align-items: flex-start;
+    gap: 7px;
+    padding-left: 60px;
+    padding-top: 50px;
+
+  }
+  .card {
+    display: flex;
+    width: 994px;
+    height: 524px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 6px 64px 0px;
+  }
+  
+
+
+  .main-card-head {
+    color: #25282B;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+  }
+  
+  .main-card-body {
+    color: #828282;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 60px;
+  }
+  
+
+  .button {
+    display: inline-flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #3E718D;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    transition: .15s ease-in; 
+
+  }
+  
+  .button:hover {
+    background-color: #193342;
+  
+
+  }
+  
